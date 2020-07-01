@@ -1,5 +1,9 @@
 body{
+
+    background-image: url("/Home/Documents/becode/remediation/imagebackblue.jpeg");
+
   
+    
 }
 
 .container {
@@ -8,7 +12,7 @@ body{
     margin: auto;
     padding: auto;
     margin-bottom: 50px;
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: center;  
     flex-direction: row;
@@ -17,7 +21,7 @@ body{
 }
 .form-group{
 
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .button{
     
@@ -31,8 +35,8 @@ body{
 
 .boxmaster{
   
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     margin: auto;
     padding: auto;
    
@@ -43,21 +47,27 @@ body{
 .boxContainer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .box{
     width: 250px;
     height: 250px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-   
+  
     align-items: center;
     font-size: 1.5rem;
     color: white;
     
+    
 }
+.box {
+    margin: 10px;
+  }
 #city {
     background-color: rgba(41, 128, 185, 0.75);
+
 }
 #temp{
     background-color: rgba(43, 78, 101, 0.75);
@@ -67,5 +77,5 @@ body{
 }
 #wind{
 
-    background-color: rgba(225, 226, 231, 0.75);
+    background-color: rgba(118, 129, 185, 0.75);
 }
