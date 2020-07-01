@@ -1,0 +1,71 @@
+body{
+  
+}
+
+.container {
+
+    background-color: rgb(67, 67, 236);
+    margin: auto;
+    padding: auto;
+    margin-bottom: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;  
+    flex-direction: row;
+    
+
+}
+.form-group{
+
+    margin-bottom: 30px;
+}
+.button{
+    
+    display: flex;
+    justify-content: center;  
+    padding: 10px;
+    
+    
+}
+
+
+.boxmaster{
+  
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: auto;
+   
+    
+  
+    
+}
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+#city {
+    background-color: rgba(41, 128, 185, 0.75);
+}
+#temp{
+    background-color: rgba(43, 78, 101, 0.75);
+}
+#humidity{
+    background-color: rgba(195, 198, 231, 0.75);
+}
+#wind{
+
+    background-color: rgba(225, 226, 231, 0.75);
+}
