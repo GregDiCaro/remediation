@@ -26,7 +26,7 @@ fetch(url).then((response) =>
     document.querySelector('form').addEventListener('submit', function(e){
 
             e.preventDefault();
-            let ville = document.querySelector("#inputcity").value;
+            let ville = document.querySelector("#inputCity").value;
 
             apiCall(ville);
     });
